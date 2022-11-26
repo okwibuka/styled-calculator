@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <center>
+        
+        <form action="form" name="form" >
+            <h1 class="intro">calculator</h1>
+        <input type="text" class="content-holder" name="holder">
+            <br> <br><input class="btn" type="button" value="DEL" onclick="remove()">
+    <input class="btn" type="button" value="AC" onclick="document.form.holder.value =''"> 
+            <br><br>
+    <input class="btn" type="button" value="7" onclick="content(7)"> 
+    <input class="btn eight" type="button" value="8" onclick="content(8)"> 
+    <input class="btn" type="button" value="9" onclick="content(9)">
+    <input class="btn" type="button" value="*" onclick="content('*')"> 
+    <br><br>
+    <input class="btn" type="button" value="4" onclick="content(4)"> 
+    <input class="btn" type="button" value="5" onclick="content(5)"> 
+    <input class="btn" type="button" value="6" onclick="content(6)">
+    <input class="btn" type="button" value="-" onclick="content('-')">
+    <br><br> 
+    <input class="btn" type="button" value="1" onclick="content(1)"> 
+    <input class="btn" type="button" value="2" onclick="content(2)"> 
+    <input class="btn" type="button" value="3" onclick="content(3)">
+    <input class="btn" type="button" value="+" onclick="content('+')">
+    <br><br>
+    <input class="btn" type="button" value="." onclick="content('.')"> 
+    <input class="btn" type="button" value="0" onclick="content(0)"> 
+    <input class="btn" type="button" value="/" onclick="content('/')"> 
+    <input class="btn" type="button" value="=" onclick="equal()">
+</form>   
+    <script src="../java/java.js"></script>
+</center>
+</body>
+</html>
